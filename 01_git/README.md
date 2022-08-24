@@ -13,8 +13,9 @@
  1. commit and leave a message "learning git"
  1. push
  1. use `git status` to check the status 
- 1. submit a pull request (PR) in your repo on GitHub
+ 1. submit a pull request (PR) from your branch to my main brach on GitHub
 
 
  ### Tips:
   - always pull first before making changes to avoid undesired conflicts
+  - You may not need to fork if you are added as a collborator of a repo
