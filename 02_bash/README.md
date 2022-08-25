@@ -4,7 +4,7 @@
  - [Basic tutorial](https://ryanstutorials.net/linuxtutorial/)
 
 ### Homework
- - following [01_git](../01_git/), create a new branch `LAST#_02bash` (ex: pan667_02bash)
+ - following [01_git](../01_git/), create a new branch `LAST#_02bash` (ex: pan667_02bash) in your forked repo
  - create a folder named LAST.# under submissions
  - copy `a_folder` under `02_bash` to your `LAST.#` folder and rename it to `folder_1`
  - change directory to your `LAST.#` folder
