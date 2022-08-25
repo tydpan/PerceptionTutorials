@@ -10,7 +10,7 @@
  - change directory to your `LAST.#` folder
  - list files with long format and redirect the output to a file named `LAST.#.txt`
  - list files with long format again and append the output to the same file `LAST.#.txt`
- - print your working directory and append the output the same file `LAST.#.txt`
+ - print your working directory and append the output to the same file `LAST.#.txt`
  - use `vim` to open `LAST.#.txt` and put "This is my submission" in the first row. save it and quit
  - remove `b_file.txt` under `folder_1`
  - stage changes, commit with the message "learning bash", submit a PR
