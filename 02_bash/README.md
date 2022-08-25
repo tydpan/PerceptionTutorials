@@ -13,4 +13,4 @@
  - print your working directory and append the output to the same file `last.#.txt`
  - use `vim` to open `last.#.txt` and put "this is my submission" in the first row; save it and quit
  - remove `b_file.txt` under `folder_1`
- - stage changes, commit with the message "learning bash", puash and submit a pr
+ - stage changes, commit with the message "learning bash", push and submit a pr
