@@ -1,0 +1,8 @@
+This is my submission
+total 0
+drwxr-xr-x  4 wenjinfu  staff  128 Aug 29 15:46 folder_1
+-rw-r--r--@ 1 wenjinfu  staff    0 Aug 29 16:08 fu.784.txt
+total 0
+drwxr-xr-x  4 wenjinfu  staff  128 Aug 29 15:46 folder_1
+-rw-r--r--@ 1 wenjinfu  staff    0 Aug 29 16:08 fu.784.txt
+/Users/wenjinfu/Desktop/CSE5916/PerceptionTutorials/02_bash/submissions
