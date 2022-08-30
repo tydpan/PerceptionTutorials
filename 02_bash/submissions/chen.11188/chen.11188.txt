@@ -1,0 +1,8 @@
+This is my submission
+total 0
+-rw-r--r--  1 bjqsewnci  staff    0  8 30 18:19 chen.11188.txt
+drwxr-xr-x  4 bjqsewnci  staff  128  8 30 18:17 folder_1
+total 8
+-rw-r--r--  1 bjqsewnci  staff  128  8 30 18:19 chen.11188.txt
+drwxr-xr-x  4 bjqsewnci  staff  128  8 30 18:17 folder_1
+/Users/bjqsewnci/Desktop/PerceptionTutorials/02_bash/submissions/chen.11188
