@@ -1,0 +1,8 @@
+this is my submission
+total 0
+drwxr-xr-x 1 total 197609 0 Aug 30 00:16 folder_1/
+-rw-r--r-- 1 total 197609 0 Aug 30 00:13 zimmerman.808.txt
+total 0
+drwxr-xr-x 1 total 197609 0 Aug 30 00:16 folder_1/
+-rw-r--r-- 1 total 197609 0 Aug 30 00:13 zimmerman.808.txt
+/C/pythonwerk/PerceptionTutorials/02_bash/submissions/zimmerman.808
