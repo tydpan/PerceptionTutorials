@@ -1,0 +1,15 @@
+sys.platform           win32
+Python                 3.8.13 (default, Mar 28 2022, 06:59:08) [MSC v.1916 64 bit (AMD64)]
+numpy                  1.23.2
+detectron2             0.6 @c:\pythonwerk\perceptiontutorials\detectron2\detectron2
+Compiler               MSVC 192829333
+CUDA compiler          not available
+DETECTRON2_ENV_MODULE  <not set>
+PyTorch                1.12.1+cpu @C:\Users\total\anaconda3\envs\env_pytorch\lib\site-packages\torch
+PyTorch debug build    False
+GPU available          No: torch.cuda.is_available() == False
+Pillow                 9.2.0
+torchvision            0.13.1+cpu @C:\Users\total\anaconda3\envs\env_pytorch\lib\site-packages\torchvision
+fvcore                 0.1.5.post20220512
+iopath                 0.1.9
+cv2                    4.6.0
