@@ -1,0 +1,8 @@
+this is my submission
+total 0
+drwxr-xr-x 1 jeons 197609 0 Aug 30 21:48 folder_1/
+-rw-r--r-- 1 jeons 197609 0 Aug 30 21:53 jeon.193.txt
+total 1
+drwxr-xr-x 1 jeons 197609   0 Aug 30 21:48 folder_1/
+-rw-r--r-- 1 jeons 197609 113 Aug 30 21:53 jeon.193.txt
+/c/Users/jeons/ADC/PerceptionTutorials/02_bash/submissions/jeon.193
