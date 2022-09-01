@@ -1,0 +1,8 @@
+this is my submission
+total 0
+drwxr-xr-x  4 vritangikansal  staff  128 Aug 30 18:19 folder_1
+-rw-r--r--  1 vritangikansal  staff    0 Aug 30 18:24 kansal.17.txt
+total 8
+drwxr-xr-x  4 vritangikansal  staff  128 Aug 30 18:19 folder_1
+-rw-r--r--  1 vritangikansal  staff  139 Aug 30 18:24 kansal.17.txt
+/Users/vritangikansal/Downloads/AutoDrive/PerceptionTutorials/02_bash/submissions/kansal.17
