@@ -12,4 +12,4 @@
  1. copy the file `code.py` to `submissions/` and rename it as `LAST#.py`
  1. read the function in the file `LAST#.py`, add proper doc string with googledoc style, and add proper type hints
  1. run `black` with line length 100, `isort`, and `flake8` on the file
- 1. stage changes, commit with the message "learning pep8", push and submit a pr
+ 1. stage changes, commit with the message "learning doc", push and submit a pr
