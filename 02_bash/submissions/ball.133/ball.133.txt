@@ -1,0 +1,8 @@
+this is my submission
+total 8
+-rw-r--r--  1 evaball  staff  12 Sep  1 14:49 a_file.txt
+-rw-r--r--  1 evaball  staff   0 Sep  1 14:49 b_file.txt
+total 8
+-rw-r--r--  1 evaball  staff  12 Sep  1 14:49 a_file.txt
+-rw-r--r--  1 evaball  staff   0 Sep  1 14:49 b_file.txt
+/Users/evaball/PerceptionTutorials/02_bash/submissions/ball.133
