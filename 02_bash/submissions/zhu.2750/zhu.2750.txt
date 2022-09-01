@@ -1,0 +1,8 @@
+this is my submission
+total 4
+drwxr-xr-x 2 zhur zhur 4096 Sep  1 13:01 folder_1
+-rw-r--r-- 1 zhur zhur    0 Sep  1 13:02 zhu.2750.txt
+total 8
+drwxr-xr-x 2 zhur zhur 4096 Sep  1 13:01 folder_1
+-rw-r--r-- 1 zhur zhur  112 Sep  1 13:02 zhu.2750.txt
+/home/zhur/GIT/PerceptionTutorials/02_bash/submissions/zhu.2750
