@@ -1,0 +1,8 @@
+this is my submission
+total 0
+drwxr-xr-x  4 yutingyang  staff  128 Aug 30 19:57 folder_1
+-rw-r--r--  1 yutingyang  staff    0 Aug 30 20:04 yang.5493.txt
+total 8
+drwxr-xr-x  4 yutingyang  staff  128 Aug 30 19:57 folder_1
+-rw-r--r--  1 yutingyang  staff  131 Aug 30 20:04 yang.5493.txt
+/Users/yutingyang/github/PerceptionTutorials/02_bash/submissions/yang.5493
