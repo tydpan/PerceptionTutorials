@@ -10,7 +10,7 @@
  1. activate the environment you created in [03_conda](../03_conda/)
  1. copy the file `code.py` to `submissions/` and rename it as `LAST#.py`
  1. open the file, add arguments for `mode` and `pow`, set proper values for `type`, `default`, `help`, and `metavar`
- 1. add a argument named `print_hello` which `action` is `store_true`
+ 1. add an argument named `print_hello` which `action` is `store_true`
  1. run `python LAST#.py -h` to see the arguments you created
  1. run `python LAST#.py` and test with different argument values to see if it works properly
  1. run `black` with line length 100, `isort`, and `flake8` on the file
