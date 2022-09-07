@@ -100,7 +100,6 @@ class DatasetMapperTTA:
         for aug in aug_candidates:
             new_image, tfms = apply_augmentations(aug, np.copy(numpy_image))
             torch_image = torch.from_numpy(np.ascontiguousarray(new_image.transpose(2, 0, 1)))
-
             dic = copy.deepcopy(dataset_dict)
             dic["transforms"] = pre_tfm + tfms
             dic["image"] = torch_image
