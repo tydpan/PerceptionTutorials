@@ -2,13 +2,12 @@
 # https://github.com/facebookresearch/detectron2/blob/cbbc1ce26473cb2a5cc8f58e8ada9ae14cb41052/detectron2/modeling/test_time_augmentation.py
 # Copyright (c) Facebook, Inc. and its affiliates.
 import copy
-import numpy as np
 from contextlib import contextmanager
 from itertools import count
-from fvcore.transforms import HFlipTransform, NoOpTransform
-from torch import nn
-from torch.nn.parallel import DistributedDataParallel
+from typing import List
 
+import numpy as np
+import torch
 from detectron2.config import configurable
 from detectron2.data.detection_utils import read_image
 from detectron2.data.transforms import (
@@ -17,25 +16,129 @@ from detectron2.data.transforms import (
     ResizeTransform,
     apply_augmentations,
 )
-import matplotlib
-from detectron2.structures import Boxes, Instances
 from detectron2.modeling.meta_arch import GeneralizedRCNN
 from detectron2.modeling.postprocessing import detector_postprocess
 from detectron2.modeling.roi_heads.fast_rcnn import fast_rcnn_inference_single_image
-from typing import List
-
+from detectron2.structures import Boxes, Instances
+from fvcore.transforms import HFlipTransform, NoOpTransform
+from torch import nn
+from torch.nn.parallel import DistributedDataParallel
 
 __all__ = ["DatasetMapperTTA", "GeneralizedRCNNWithTTA"]
 
 
-
-
-DUMMY_LIST1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
-DUMMY_LIST2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
-DUMMY_LIST3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+DUMMY_LIST1 = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+]
+DUMMY_LIST2 = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+]
+DUMMY_LIST3 = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+]
 print(DUMMY_LIST1, DUMMY_LIST2, DUMMY_LIST3)
-
-
 
 
 class DatasetMapperTTA:
@@ -58,7 +161,6 @@ class DatasetMapperTTA:
         self.min_sizes = min_sizes
         self.max_size = max_size
         self.flip = flip
-        dummy = 12345
 
     @classmethod
     def from_config(cls, cfg):
@@ -135,7 +237,9 @@ class GeneralizedRCNNWithTTA(nn.Module):
         ), "TTA is only supported on GeneralizedRCNN. Got a model of type {}".format(type(model))
         self.cfg = cfg.clone()
         assert not self.cfg.MODEL.KEYPOINT_ON, "TTA for keypoint is not supported yet"
-        assert not self.cfg.MODEL.LOAD_PROPOSALS, "TTA for pre-computed proposals is not supported yet"
+        assert (
+            not self.cfg.MODEL.LOAD_PROPOSALS
+        ), "TTA for pre-computed proposals is not supported yet"
 
         self.model = model
 
