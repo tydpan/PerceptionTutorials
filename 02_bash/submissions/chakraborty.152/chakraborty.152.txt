@@ -1,0 +1,8 @@
+This is my submission
+total 0
+-rw-r--r-- 1 Megha 197609 0 Sep  8 04:15 chakraborty.152.txt
+drwxr-xr-x 1 Megha 197609 0 Sep  8 03:54 folder_1/
+total 4
+-rw-r--r-- 1 Megha 197609 120 Sep  8 04:15 chakraborty.152.txt
+drwxr-xr-x 1 Megha 197609   0 Sep  8 03:54 folder_1/
+/c/Users/Megha/OneDrive - The Ohio State University/The Ohio State University/AutoDrive Project/Practice/02_bash/PerceptionTutorials/02_bash/submissions/chakraborty.152
