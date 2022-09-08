@@ -1,0 +1,8 @@
+This is my submission
+total 0
+drwxr-xr-x 4 taiyupan 128 Aug 25 15:28 folder_1/
+-rw-r--r-- 1 taiyupan   0 Aug 25 15:29 pan.667.txt
+total 4.0K
+drwxr-xr-x 4 taiyupan 128 Aug 25 15:28 folder_1/
+-rw-r--r-- 1 taiyupan 108 Aug 25 15:29 pan.667.txt
+/Users/taiyupan/PerceptionTutorials/02_bash/submissions/pan.667
