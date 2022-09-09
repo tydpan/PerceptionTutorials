@@ -17,7 +17,7 @@
     - for images, ignore `license`, `flickr_url`, `coco_url`, and `date_captured`
     - for annotations, use RLE format for segmentation (hint: use (official tools)[https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/mask.py] which should be already installed with detectron2), find `area` and `bbox` yourself, and simply set `iscrowd` to 0
     - for categories, simply copy from `instances_val2017.json`
-1. run `python demo.py -f pan667.json -r ~/PerceptionTutorials/07_COCO/` (repalce with your path) to plot a demo, you should see a `demo.jpg` looking like the following: 
+1. run `python demo.py -f pan667.json -r ~/PerceptionTutorials/07_COCO/` (repalce with your path) to plot a demo, you should see a `demo.jpg` looking like the following:  
     ![demo.jpg](sample.jpg)
 1. run `black` with line length 100, `isort`, and `flake8` on `LAST#.py`
 1. move `LAST#.py` and `LAST#.json` to `submissions`
