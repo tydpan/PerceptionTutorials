@@ -19,6 +19,7 @@
     - for categories, simply copy from `instances_val2017.json`
 1. run `python demo.py -f pan667.json -r ~/PerceptionTutorials/07_COCO/` (repalce with your path) to plot a demo, you should see a `demo.jpg` looking like the following:  
     ![demo.jpg](sample.jpg)
+1. (NOT REQUIRED) document your code with googledoc style (ref: [05_docstring](../05_docstring/))
 1. run `black` with line length 100, `isort`, and `flake8` on `LAST#.py`
 1. move `LAST#.py` and `LAST#.json` to `submissions`
 1. stage changes (DO NOT ADD `demo.jpg`), commit with the message "learning coco", push and submit a pr
