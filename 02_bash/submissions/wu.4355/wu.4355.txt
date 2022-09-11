@@ -1,0 +1,7 @@
+this is my submission
+total 4
+drwxr-xr-x 2 lucas lucas 4096 Sep 11 14:22 folder_1
+-rw-r--r-- 1 lucas lucas    0 Sep 11 14:25 wu.4355.txt
+total 8
+drwxr-xr-x 2 lucas lucas 4096 Sep 11 14:22 folder_1
+-rw-r--r-- 1 lucas lucas  115 Sep 11 14:25 wu.4355.txt
