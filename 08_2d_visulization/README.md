@@ -17,4 +17,4 @@
     - for boxes, you can use matplotlib.patches.Rectangle
     - for masks, you can create mask images with transparency and overlay with the original image
     - for texts, you can use ax.text. align text and box at the center
- 1. stage changes, commit with the message "learning coco", push and submit a pr
+ 1. stage changes, commit with the message "learning vis2d", push and submit a pr
