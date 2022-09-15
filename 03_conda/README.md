@@ -13,5 +13,5 @@
  1. install pytorch and torchvision ([pytorch](https://pytorch.org))
  1. install [detectron2](https://github.com/facebookresearch/detectron2) with `git clone` and `pip install -e` (please find more information in their instruction and go check what `-e` means)
  1. install opencv
- 1. run `python -m detectron2.utils.collect_env.py` and redirect the output to the file named LAST.#.txt under submissions (check [02_bash](../02_bash/) for redirection)
+ 1. run `python -m detectron2.utils.collect_env` and redirect the output to the file named LAST.#.txt under submissions (check [02_bash](../02_bash/) for redirection)
  1. stage changes, commit with the message "learning conda", push and submit a pr
