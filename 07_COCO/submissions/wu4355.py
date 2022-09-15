@@ -26,17 +26,22 @@ with open("annotations.txt", "r") as f:
         category_id = int(line_array[2])
         mask_name = line_array[3]
         image = cv2.imread(file_name, 0)
-        mk = cv2.imread(mask_name, cv2.IMREAD_GRAYSCALE)
-        mk = mk.clip(max=1)
+        mk = cv2.imread(mask_name, 0)
+        # mk = mk.clip(max=1)
+
+
+       
         ground_truth_binary_mask = np.array(mk, dtype=np.uint8)
 
         fortran_mask = np.asfortranarray(ground_truth_binary_mask)
         encoded_ground_truth = mask.encode(fortran_mask)
         ground_truth_area = mask.area(encoded_ground_truth)
         ground_truth_bounding_box = mask.toBbox(encoded_ground_truth)
-        contours = measure.find_contours(ground_truth_binary_mask, 0.5)
+        
+        encoded_ground_truth["counts"] = encoded_ground_truth["counts"].decode('utf8').replace("'", '"')
+        print(encoded_ground_truth)
         annotation = {
-            "segmentation": [],
+            "segmentation": encoded_ground_truth,
             "area": float(ground_truth_area.tolist()),
             "iscrowd": 0,
             "image_id": file_id,
@@ -44,7 +49,6 @@ with open("annotations.txt", "r") as f:
             "category_id": category_id,
             "id": index,
         }
-
         image = {
             "file_name": file_name,
             "height": image.shape[0],
@@ -54,12 +58,6 @@ with open("annotations.txt", "r") as f:
         if image not in images:
             images.append(image)
         # get segmentation
-        polygons = []
-        for contour in contours:
-
-            contour = np.flip(contour, axis=1)
-            segmentation = contour.ravel().tolist()
-            annotation["segmentation"].append(segmentation)
 
         anns.append(annotation)
 
