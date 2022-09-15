@@ -1,5 +1,5 @@
 
-def afunc(array1, array2, mode="+", pow=2):
+def afunc(array1, array2, mode: str = "+", pow: int = 2):
     assert array1.shape == array2.shape, "size mismatch"
     assert type(pow) == int, "pow should be type int"
 
