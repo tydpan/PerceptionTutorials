@@ -1,10 +1,10 @@
 # 3D Point Cloud
 *Credits: Mengdi Fan and Daniel Pan*
+
 *Note: Data used here are modified from KITTI dataset.*
 
 ### Resources
  - [KITTI](https://www.cvlibs.net/datasets/KITTI/eval_object.php?obj_benchmark=3d)
- - [KITTI tutorial](https://github.com/dtczhl/dtc-KITTI-For-Beginners/tree/ca140be438371cee224057fd9e9632d3c9b46b14)
  - [KITTI coordinate transformations](https://towardsdatascience.com/KITTI-coordinate-transformations-125094cd42fb)
  - [some example codes for KITTI](https://github.com/kuixu/kitti_object_vis)
  - [Plotly](https://plotly.com/python/)
