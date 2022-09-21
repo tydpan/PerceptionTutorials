@@ -1,0 +1,31 @@
+---------------------  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sys.platform           darwin
+Python                 3.8.13 (default, Mar 28 2022, 06:16:26) [Clang 12.0.0 ]
+numpy                  1.23.1
+detectron2             0.6 @/Users/evaball/Documents/AutoDrive/detectron2/detectron2
+detectron2._C          not built correctly: dlopen(/Users/evaball/Documents/AutoDrive/detectron2/detectron2/_C.cpython-38-darwin.so, 0x0002): Symbol not found: (__ZN3c106detail19maybe_wrap_dim_slowExxb)
+                         Referenced from: '/Users/evaball/Documents/AutoDrive/detectron2/detectron2/_C.cpython-38-darwin.so'
+                         Expected in: '/opt/anaconda3/envs/py3.8/lib/python3.8/site-packages/torch/lib/libc10.dylib'
+Compiler ($CXX)        Apple clang version 11.0.3 (clang-1103.0.32.59)
+DETECTRON2_ENV_MODULE  <not set>
+PyTorch                1.10.2 @/opt/anaconda3/envs/py3.8/lib/python3.8/site-packages/torch
+PyTorch debug build    False
+GPU available          No: torch.cuda.is_available() == False
+Pillow                 9.2.0
+torchvision            0.11.0a0 @/opt/anaconda3/envs/py3.8/lib/python3.8/site-packages/torchvision
+fvcore                 0.1.5.post20220512
+iopath                 0.1.9
+cv2                    Not found
+---------------------  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PyTorch built with:
+  - GCC 4.2
+  - C++ Version: 201402
+  - clang 12.0.0
+  - Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v2.2.3 (Git Hash N/A)
+  - OpenMP 201811
+  - LAPACK is enabled (usually provided by MKL)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CXX_COMPILER=/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-udngs7fm/pytorch_1648016055234/_build_env/bin/x86_64-apple-darwin13.4.0-clang++, CXX_FLAGS=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++  -std=c++14 -fmessage-length=0 -isystem /var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-udngs7fm/pytorch_1648016055234/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/include -fdebug-prefix-map=/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-udngs7fm/pytorch_1648016055234/work=/usr/local/src/conda/pytorch-1.10.2 -fdebug-prefix-map=/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-udngs7fm/pytorch_1648016055234/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol=/usr/local/src/conda-prefix -Wno-deprecated-declarations -Wno-deprecated -fvisibility-inlines-hidden -Wno-deprecated-declarations -DUSE_PTHREADPOOL -fopenmp=libiomp5 -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -DEDGE_PROFILER_USE_KINETO -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -Wno-invalid-partial-specialization -Wno-typedef-redefinition -Wno-unknown-warning-option -Wno-unused-private-field -Wno-inconsistent-missing-override -Wno-aligned-allocation-unavailable -Wno-c++14-extensions -Wno-constexpr-not-const -Wno-missing-braces -Qunused-arguments -fcolor-diagnostics -fno-math-errno -fno-trapping-math -Werror=format -Werror=cast-function-type -Wno-unused-private-field -Wno-missing-braces -Wno-c++14-extensions -Wno-constexpr-not-const, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=1.10.2, USE_CUDA=OFF, USE_CUDNN=OFF, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=ON, USE_OPENMP=ON, 
+
