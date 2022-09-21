@@ -1,0 +1,7 @@
+this is my submission ; vandan patel
+total 0
+drwxr-xr-x  4 vandanpatel  staff  128 Aug 30 23:05 folder_1
+-rw-r--r--@ 1 vandanpatel  staff    0 Sep  1 18:08 patel.4754.txt
+total 8
+drwxr-xr-x  4 vandanpatel  staff  128 Aug 30 23:05 folder_1
+-rw-r--r--@ 1 vandanpatel  staff  134 Sep  1 18:08 patel.4754.txt
