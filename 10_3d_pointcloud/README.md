@@ -1,4 +1,4 @@
-# 3D Point Cloud
+# 3D Point Cloud - KITTI
 *Credits: Mengdi Fan and Daniel Pan*
 
 *Note: Data used here are modified from KITTI dataset.*
@@ -13,9 +13,9 @@
  1. update your forked repo from my repo([ref](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork))
  1. following [01_git](../01_git/), create a new branch `LAST#_10pc` (ex: pan667_10pc) in your forked repo
  1. read and understand what KITTI Point Cloud format is
- 1. download `KITTI raw data development kit` [here](https://www.cvlibs.net/datasets/KITTI/raw_data.php) and `KITTI object development kit ` [here](https://www.cvlibs.net/datasets/KITTI/eval_object.php?obj_benchmark=3d), read `readme.txt` in both kits and tutorials to understand 
+ 1. download `KITTI raw data development kit` [here](https://www.cvlibs.net/datasets/KITTI/raw_data.php) and `KITTI object development kit ` [here](https://www.cvlibs.net/datasets/KITTI/eval_object.php?obj_benchmark=3d), read `readme.txt` in both kits to understand 
     - how KITTI organize its dataset
-    - coordinate systems of different sensors (each sensor, like camera1, camera2, or lidar, has its origion and coordinate system)
+    - coordinate systems of different sensors (each sensor, like camera1, camera2, or lidar, has its origin and coordinate system)
     - how to transform from one coordinate system to another (e.g. lidar to camera) by calibration matrix (e.g. `calib.txt`)
     - annotation file (what each column means, for example in `label.txt`)
  1. activate the environment you created in [03_conda](../03_conda/)
