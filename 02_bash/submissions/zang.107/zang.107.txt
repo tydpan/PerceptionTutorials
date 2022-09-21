@@ -1,0 +1,8 @@
+this is my submission
+total 4
+drwxr-xr-x 2 zangtianhao77 zangtianhao77 4096 Sep  5 16:51 folder_1
+-rw-r--r-- 1 zangtianhao77 zangtianhao77    0 Sep  5 17:30 zang.107.txt
+total 8
+drwxr-xr-x 2 zangtianhao77 zangtianhao77 4096 Sep  5 16:51 folder_1
+-rw-r--r-- 1 zangtianhao77 zangtianhao77  148 Sep  5 17:30 zang.107.txt
+/home/zangtianhao77/PerceptionTutorials/02_bash/submissions/zang.107
