@@ -1,0 +1,19 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectRootManager\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision aeadcea2b703b74ed948be69aa550ef50723128f)
++++ b/.idea/misc.xml	(date 1663272887287)
+@@ -1,6 +1,4 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (BrainProject)" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
