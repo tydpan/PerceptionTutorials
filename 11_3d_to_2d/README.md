@@ -25,10 +25,10 @@
         ax.set_xlim([0, w])
         ax.set_ylim([h, 0])
     ```
-    - plot the scatter on the figure (`ax.scatter()`); set marker size to 3 and colors to 1/z (you can use z as well. 1/z is just further scaling the distance to make colors more differentiated in the figure. you can plot both can compare.). You should see the following:
+    - plot the scatter on the figure (`ax.scatter()`); set marker size to 3 and colors to 1/z (you can use z as well. 1/z is just further scaling the distance to make colors more differentiated in the figure. you can plot both and compare.); you should see the following:
     ![demo1.jpg](demo1.jpg)
-    - read `label.txt`, parse each line, skip "DontCare" class, get 2D bounding box, and plot it (similar to what we did in [08_2d_visulization](../08_2d_visulization/)). You should see the following:
+    - read `label.txt`, parse each line, skip "DontCare" class, get 2D bounding box, and plot it (similar to what we did in [08_2d_visulization](../08_2d_visulization/)); you should see the following:
     ![demo2.jpg](demo2.jpg)
-    - plot image as well `ax.imshow()`; you should see the following:
+    - plot image as well (`ax.imshow()`); you should see the following:
     ![demo3.jpg](demo3.jpg)
  1. stage changes, commit with the message "learning KITTI", push and submit a pr
