@@ -22,7 +22,7 @@
  1. install `Plotly` with `Jupyter-lab` support
  1. create a notebook under `submissions` and name as `LAST#.ipynb`
  1. start `jupyterlab`, it should open a window in your browser. open your `LAST#.ipynb`
- 1. write your code to read in point cloud
+ 1. write your code to read point cloud file `velo.bin`
     - use `fromfile` in `numpy`
     - default data type in `fromfile` is `float64` but KITTI uses `float32`, specify data type when reading
     - point clouds in KITTI consist of 4 channels, x, y, z and r (reflectance); you will see a 1D array (x1, y1, z1, r1, x2, y2, z2, r2, ...) after reading; reshape this array into (N, 4); you can drop the last column r to become (N, 3)
