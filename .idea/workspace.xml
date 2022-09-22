@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b2cecc6-6984-4397-ad79-d3352817efa2" name="Changes" comment="learning pep8">
-      <change beforePath="$PROJECT_DIR$/08_2d_visulization/sample.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/08_2d_visulization/submissions/sample.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="9b2cecc6-6984-4397-ad79-d3352817efa2" name="Changes" comment="learning pep8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +85,7 @@
       <workItem from="1663273492576" duration="4821000" />
       <workItem from="1663643891929" duration="622000" />
       <workItem from="1663814744210" duration="1431000" />
-      <workItem from="1663816604205" duration="1192000" />
+      <workItem from="1663816604205" duration="1375000" />
     </task>
     <servers />
   </component>
