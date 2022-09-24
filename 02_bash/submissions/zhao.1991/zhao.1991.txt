@@ -1,0 +1,7 @@
+total 0
+drwxr-xr-x 1 Tong 197121 0 Sep  1 16:17 folder_1/
+-rw-r--r-- 1 Tong 197121 0 Sep  1 16:27 zhao.1991.txt
+total 1
+drwxr-xr-x 1 Tong 197121   0 Sep  1 16:17 folder_1/
+-rw-r--r-- 1 Tong 197121 112 Sep  1 16:27 zhao.1991.txt
+/c/github/AutoDrive/PerceptionTutorials/02_bash/submissions/zhao.1991
