@@ -1,0 +1,8 @@
+this is my submission
+total 0
+drwxr-xr-x 1 Gman_ 197609 0 Jan 11 14:39 folder_1/
+-rw-r--r-- 1 Gman_ 197609 0 Jan 11 14:48 mannem.3.txt
+total 1
+drwxr-xr-x 1 Gman_ 197609   0 Jan 11 14:39 folder_1/
+-rw-r--r-- 1 Gman_ 197609 113 Jan 11 14:48 mannem.3.txt
+C:\Users\Gman_\PerceptionTutorials\02_bash\submissions\mannem.3
