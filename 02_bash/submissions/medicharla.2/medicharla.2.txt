@@ -1,0 +1,8 @@
+this is my submission
+total 0
+drwxr-xr-x 1 rmedi 197609 0 Jan 17 16:53 folder_1/
+-rw-r--r-- 1 rmedi 197609 0 Jan 17 16:54 medicharla.2.txt
+total 1
+drwxr-xr-x 1 rmedi 197609   0 Jan 17 16:53 folder_1/
+-rw-r--r-- 1 rmedi 197609 117 Jan 17 16:54 medicharla.2.txt
+/c/Users/rmedi/Documents/PerceptionTutorials/02_bash/submissions/medicharla.2
