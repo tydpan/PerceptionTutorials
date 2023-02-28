@@ -1,0 +1,10 @@
+this is my submission
+
+total 8
+-rw-r--r--  1 fab  staff  112 Feb 27 19:16 Ramon.12
+-rw-r--r--  1 fab  staff    0 Feb 27 19:18 Ramon.12.txt
+drwxr-xr-x  4 fab  staff  128 Feb 27 19:04 folder_1
+total 8
+-rw-r--r--  1 fab  staff  168 Feb 27 19:18 Ramon.12.txt
+drwxr-xr-x  4 fab  staff  128 Feb 27 19:04 folder_1
+
