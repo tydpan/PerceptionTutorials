@@ -1,0 +1,7 @@
+This is my submission 
+r--r--  1 fab  staff    0 Feb 27 19:51 Ramon.12.txt
+drwxr-xr-x  4 fab  staff  128 Feb 27 19:50 folder_1
+total 8
+-rw-r--r--  1 fab  staff  116 Feb 27 19:51 Ramon.12.txt
+drwxr-xr-x  4 fab  staff  128 Feb 27 19:50 folder_1
+/Users/fab/Branch Perception/02_bash/submissions/Ramon.12
